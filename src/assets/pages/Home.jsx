@@ -7,7 +7,6 @@ function Home(params) {
         <div>
             <Header
                 Name = "Name"
-                Slogan = "Slogan"
             />
             <Article></Article>
             <Footer></Footer>

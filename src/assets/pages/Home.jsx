@@ -6,7 +6,7 @@ function Home(params) {
     return(
         <div>
             <Header
-                Home = "Home"
+                Name = "Name"
                 Slogan = "Slogan"
             />
             <Article></Article>

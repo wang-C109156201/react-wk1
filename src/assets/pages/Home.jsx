@@ -1,6 +1,6 @@
 import Header from '../components/Header';
-import Footer from './assets/components/Footer';
-import Article from './assets/components/Article';
+import Footer from '../components/Footer';
+import Article from '../components/Article';
 
 function Home(params) {
     return(

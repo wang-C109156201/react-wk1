@@ -9,7 +9,7 @@ function App() {
   const [count, setCount] = useState(0)
 
   return (
-    <div classNameName="App">
+    <div className="App">
       <Home></Home>
     </div>
   )

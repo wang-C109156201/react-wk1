@@ -7,10 +7,10 @@ function Home(params) {
         <div>
             <Header
                 Name = "Name"
-                
+                className="layout-header"
             />
-            <Article ></Article>
-            <Footer ></Footer>
+            <Article className="layout-content"></Article>
+            <Footer className="layout-footer"></Footer>
         </div>
     );
 }

@@ -1,5 +1,5 @@
-export default function Header(params) {
-    const {Name} = params;
+export default function Header(props) {
+    const {Name} = props;
     return (
         <header className="header">
             <div className="container d-flex flex-column align-items-center">

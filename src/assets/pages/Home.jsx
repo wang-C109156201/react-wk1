@@ -5,11 +5,11 @@ import Article from '../components/Article';
 function Home(params) {
     return(
         <div>
-            <Header
+            <header
                 Name = "Name"
             />
-            <Article></Article>
-            <Footer></Footer>
+            <article></article>
+            <footer/>
         </div>
     );
 }

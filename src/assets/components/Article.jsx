@@ -9,12 +9,12 @@ export default function Article(params) {
                 <hr className="divider--dark"/>
                     <div className="row">
                         {product.map(products => (
-                            <section className="image mt-4 col-sm-6 col-lg-3" key={product.id}>
-                                <div className="image mt-4 col-sm-6 col-lg-3">
+                            <section className="image mt-4 col-sm-6 col-lg-3" key={products.id}>
+                                <div >
                                     <a href="" className="image__link">
                                         <img  className="image__style"
-                                            src={product.img_link}
-                                            alt={product.name}
+                                            src={products.img_link}
+                                            alt={products.name}
                                         />
                                     </a>
                                     <p className="image_title">{product.name}</p>

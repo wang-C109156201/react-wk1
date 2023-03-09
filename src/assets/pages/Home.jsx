@@ -4,7 +4,7 @@ import Article from '../components/Article';
 
 function Home(params) {
     return(
-        <div className="container main-layout">
+        <div>
             <Header
                 Name = "Name"
                 className="layout-header"

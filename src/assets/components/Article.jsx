@@ -1,3 +1,5 @@
+import product from "../json/place.json";
+
 export default function Article(params) {
     return (
         <div>
@@ -6,7 +8,20 @@ export default function Article(params) {
                 <h1 className="text-center">IMAGES</h1>
                 <hr className="divider--dark"/>
                     <div className="row">
-                        <div className="image mt-4 col-sm-6 col-lg-3">
+                        {product.map(products => (
+                            <section className="image mt-4 col-sm-6 col-lg-3" key={product.id}>
+                                <div className="image mt-4 col-sm-6 col-lg-3">
+                                    <a href="" className="image__link">
+                                        <img  className="image__style"
+                                            src={product.img_link}
+                                            alt={product.name}
+                                        />
+                                    </a>
+                                    <p className="image_title">{product.name}</p>
+                                </div>
+                            </section>
+                        ))}
+                        {/* <div className="image mt-4 col-sm-6 col-lg-3">
                         <a href="" className="image__link">
                             <img src="images/img1.jpg" alt="" className="image__style"/>
                         </a>
@@ -53,7 +68,7 @@ export default function Article(params) {
                             <img src="images/img8.jpg" alt="" className="image__style"/>
                         </a>
                         <p className="image_title">Place 8</p>
-                        </div>   
+                        </div>    */}
                     </div>
                 </div>
             </article>

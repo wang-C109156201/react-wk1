@@ -1,7 +1,42 @@
 [
     {
         "id":"one",
-        "name":"",
-        "img_link":""
+        "name":"Place 1",
+        "img_link":"images/img1.jpg"
+    },
+    {
+        "id":"two",
+        "name":"Place 2",
+        "img_link":"images/img2.jpg"
+    },
+    {
+        "id":"three",
+        "name":"Place 3",
+        "img_link":"images/img3.jpg"
+    },
+    {
+        "id":"four",
+        "name":"Place 4",
+        "img_link":"images/img4.jpg"
+    },
+    {
+        "id":"five",
+        "name":"Place 5",
+        "img_link":"images/img5.jpg"
+    },
+    {
+        "id":"six",
+        "name":"Place 6",
+        "img_link":"images/img6.jpg"
+    },
+    {
+        "id":"seven",
+        "name":"Place 7",
+        "img_link":"images/img7.jpg"
+    },
+    {
+        "id":"eight",
+        "name":"Place 8",
+        "img_link":"images/img8.jpg"
     }
 ]

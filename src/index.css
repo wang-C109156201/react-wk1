@@ -1,5 +1,12 @@
 /* Global Style */
 /*CSS　GRID*/
+.container {
+  width: 100%;
+  display: flex;
+  align-self: center;
+  margin: auto;
+}
+
 .main-layout{
   display:grid;
   min-height: 100vh;

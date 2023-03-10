@@ -9,9 +9,9 @@ export default function Article(params) {
                 <h1 className="text-center">IMAGES</h1>
                 <hr className="divider--dark"/>
                     <div className="row">
-                        {product.map(products => (
+                        
                             <Itemlist/>
-                        ))}
+                        
                         
                     </div>
                 </div>

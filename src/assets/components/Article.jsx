@@ -10,7 +10,7 @@ export default function Article(params) {
                 <hr className="divider--dark"/>
                     <div className="row">
                         {product.map(products => (
-                            <Itemlist  key={products.id} product={products}  />
+                            <Itemlist/>
                         ))}
                         
                     </div>

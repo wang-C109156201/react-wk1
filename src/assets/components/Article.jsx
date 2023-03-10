@@ -1,5 +1,5 @@
 import product from "../json/place.json";
-import itemlist from "./itemlist";
+import Itemlist from "./itemlist";
 
 export default function Article(params) {
     return (
@@ -10,7 +10,7 @@ export default function Article(params) {
                 <hr className="divider--dark"/>
                     <div className="row">
                         {product.map(products => (
-                            <itemlist  key={products.id} product={products}  />
+                            <Itemlist  key={products.id} product={products}  />
                         ))}
                         
                     </div>

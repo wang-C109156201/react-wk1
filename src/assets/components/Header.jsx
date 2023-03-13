@@ -27,8 +27,8 @@ export default function Header(props) {
         headerSlogan: {
             fontSize: '1.25em',
             textTransform: 'uppercase',
-            margin: 0
-        },
+            margin: 0,
+        }
         
     }
 

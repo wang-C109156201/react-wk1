@@ -7,14 +7,14 @@ export default function itemlist() {
     return (
         <Row gutter={[32,32]} >
         {product.map(products => (
-            <Col>
+            <Col
                 
                 key={products.id}
                 sm={{ span: 12 }}
                 lg={{ span: 8 }}
                 xl={{ span: 6 }}
                 xxl={{ span: 4 }}
-                
+            >    
                 <Item
                     products={products}
                 />

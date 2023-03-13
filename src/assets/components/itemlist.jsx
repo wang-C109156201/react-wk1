@@ -10,9 +10,8 @@ export default function itemlist() {
             <Col
                 key={products.id}
                 sm={{ span: 12 }}
-                lg={{ span: 8 }}
-                xl={{ span: 6 }}
-                xxl={{ span: 4 }}
+                lg={{ span: 6 }}
+                
             >    
                 <Item
                     products={products}

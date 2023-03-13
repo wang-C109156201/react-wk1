@@ -8,7 +8,6 @@ export default function itemlist() {
         <Row gutter={[32,32]} >
         {product.map(products => (
             <Col
-                
                 key={products.id}
                 sm={{ span: 12 }}
                 lg={{ span: 8 }}

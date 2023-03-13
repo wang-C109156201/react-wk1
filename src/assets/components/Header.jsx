@@ -29,21 +29,7 @@ export default function Header(props) {
             textTransform: 'uppercase',
             margin: 0
         },
-        dividerLight,
-        dividerDark :{
-            width: '250px',
-            borderTop: 'solid 5px',
-            marginLeft: 'auto',
-            marginRight: 'auto',
-            opacity: 0.7,
-        },
-        dividerLight :{
-            borderColor: '#fff',
-        },
-
-        dividerDark :{
-            borderColor: '#2c3e50',
-        }
+        
     }
 
     return (
@@ -51,7 +37,7 @@ export default function Header(props) {
             <div className="container d-flex flex-column align-items-center">
                 <img style={styles.headerAvatar} src="./images/avatar.png" alt="avatar"/>
                 <h1 style={styles.headerTitle} >{Name}</h1>
-                <hr style={styles.dividerLight} />
+                <hr className="divider--light" />
                 <p style={styles.headerSlogan}>Slogan</p>
             </div>
         </header>

@@ -5,7 +5,7 @@ import { Row,Col } from "antd";
 export default function itemlist() {
     
     return (
-        <Row gutter={[32,32]} >
+        <Row gutter={[24,24]} >
         {product.map(products => (
             <Col
                 key={products.id}

@@ -1,12 +1,12 @@
 /*modify css*/
 
 /* RWD Container */
-/* .container {
+.container {
   width: 100%;
   display: flex;
   align-self: center;
   margin: auto;
-} */
+}
 
 /* sm */
 @media (min-width: 576px) {

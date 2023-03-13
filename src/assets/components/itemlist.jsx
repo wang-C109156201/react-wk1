@@ -16,7 +16,7 @@ export default function itemlist() {
                 xxl={{ span: 4 }}
                 
                 <Item
-                    products={product}
+                    products={products}
                 />
                 
             </Col>

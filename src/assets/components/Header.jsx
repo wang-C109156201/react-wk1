@@ -34,7 +34,7 @@ export default function Header(props) {
 
     return (
         <header style={styles.Header}>
-            <div className="container d-flex flex-column align-items-center">
+            <div className="container d-flex flex-column ">
                 <img style={styles.headerAvatar} src="./images/avatar.png" alt="avatar"/>
                 <h1 style={styles.headerTitle} >{Name}</h1>
                 <hr className="divider--light" />

@@ -10,7 +10,7 @@ export default function Article(params) {
                 <hr className="divider--dark"/>
                     <div className="row">
                         
-                            <Itemlist/>
+                        <Itemlist/>
                         
                         
                     </div>
